@@ -296,15 +296,25 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border-blue-500/30 backdrop-blur-sm animate-scale-in hover:scale-105 transition-transform" style={{ animationDelay: '0.2s' }}>
-              <CardContent className="p-8">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center mb-6 mx-auto animate-glow" style={{ animationDelay: '2s' }}>
-                  <Icon name="Award" className="text-white" size={32} />
+            <Card className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border-blue-500/30 backdrop-blur-sm animate-scale-in hover:scale-105 transition-transform overflow-hidden" style={{ animationDelay: '0.2s' }}>
+              <CardContent className="p-0">
+                <div className="relative h-80 overflow-hidden">
+                  <img 
+                    src="https://cdn.poehali.dev/files/f2f26adc-eb2d-4248-98c7-54a265e8a55f.jpeg" 
+                    alt="Награда от Президента РФ"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center mb-3 animate-glow" style={{ animationDelay: '2s' }}>
+                      <Icon name="Award" className="text-white" size={24} />
+                    </div>
+                    <h3 className="font-heading font-bold text-2xl mb-2 text-white">Награды</h3>
+                    <p className="text-white/90 text-sm">
+                      Медаль от Президента РФ за достижения в культуре и искусстве
+                    </p>
+                  </div>
                 </div>
-                <h3 className="font-heading font-bold text-2xl mb-4 text-center text-secondary">Награды</h3>
-                <p className="text-foreground/80 text-center">
-                  Этап внутренних убеждений, возможностей и заслуженных наград, включая медаль от Президента РФ
-                </p>
               </CardContent>
             </Card>
           </div>
