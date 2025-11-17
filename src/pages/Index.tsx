@@ -22,25 +22,25 @@ const Index = () => {
       description: "Комплексная работа над вокальными навыками",
       details: [
         "Подбор индивидуального репертуара под ваш голос и стиль",
-        "Проработка сложных технических моментов (вибрато, микст, расширение диапазона)",
+        "Проработка сложных технических моментов (изучение вокальных техник, расширение диапазона)",
         "Работа над устранением мышечных зажимов и правильной постановкой дыхания",
         "Развитие артикуляции и дикции для чёткого звучания",
         "Постановка сценического образа и работа с эмоциональной подачей",
-        "Анализ и разбор композиций с точки зрения вокальной техники"
+        "Анализ и разбор ваших выступлений с профессиональной точки зрения"
       ]
     },
     {
       icon: "BookOpen",
       title: "Теория музыки",
-      price: "1200–1300 ₽",
+      price: "1300 ₽",
       color: "from-blue-500 to-cyan-500",
       description: "Глубокое погружение в музыкальную теорию",
       details: [
         "Проверка текущего уровня знаний и составление индивидуальной программы",
         "Устранение пробелов в школьной/училищной программе",
-        "Обучение музыкальной диктовке: одноголосие, двухголосие, аккордовые последовательности",
+        "Обучение музыкальному диктанту: одноголосие, двухголосие, а также аккордовые последовательности, интервальные цепочки, ступени",
         "Развитие музыкального слуха: интервалы, аккорды, лады",
-        "Тренировка ритма и метроритмики: от простых до сложных размеров",
+        "Тренировка ритма и метроритмики: от простого к сложному",
         "Освоение нотной грамоты: чтение с листа в разных ключах",
         "Изучение истории музыки, стилей и жанров",
         "Анализ произведений: форма, гармония, структура",
@@ -50,8 +50,8 @@ const Index = () => {
     },
     {
       icon: "Trophy",
-      title: "Конкурсы и фестивали",
-      price: "1000–3000 ₽",
+      title: "Вокальные конкурсы и фестивали",
+      price: "от 1000 ₽",
       color: "from-yellow-500 to-orange-500",
       description: "Полное сопровождение на конкурсных мероприятиях",
       details: [
@@ -70,7 +70,7 @@ const Index = () => {
     {
       icon: "Target",
       title: "Стратегия артиста",
-      price: "10000–30000 ₽",
+      price: "от 15000 ₽",
       color: "from-pink-500 to-rose-500",
       description: "Построение музыкальной карьеры от А до Я",
       details: [
@@ -90,7 +90,7 @@ const Index = () => {
     {
       icon: "Music",
       title: "Сонграйтинг",
-      price: "3000–50000 ₽",
+      price: "от 7000 ₽",
       color: "from-violet-500 to-purple-500",
       description: "Создание авторских песен под ключ",
       details: [
@@ -481,8 +481,8 @@ const Index = () => {
                     </div>
                     <div>
                       <div className="font-heading font-semibold mb-1 text-foreground">Телефон</div>
-                      <a href="tel:+79999999999" className="text-foreground/70 hover:text-primary transition-colors">
-                        +7 (999) 999-99-99
+                      <a href="tel:+79151836484" className="text-foreground/70 hover:text-primary transition-colors">
+                        +7 (915) 183-64-84
                       </a>
                     </div>
                   </div>
@@ -492,8 +492,8 @@ const Index = () => {
                     </div>
                     <div>
                       <div className="font-heading font-semibold mb-1 text-foreground">Email</div>
-                      <a href="mailto:iliz@example.com" className="text-foreground/70 hover:text-secondary transition-colors">
-                        iliz@example.com
+                      <a href="mailto:alic1107@mail.ru" className="text-foreground/70 hover:text-secondary transition-colors">
+                        alic1107@mail.ru
                       </a>
                     </div>
                   </div>
@@ -505,8 +505,8 @@ const Index = () => {
                     </div>
                     <div>
                       <div className="font-heading font-semibold mb-1 text-foreground">Telegram</div>
-                      <a href="https://t.me/username" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-accent transition-colors">
-                        @username
+                      <a href="https://t.me/lizashmiganovskaya" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-accent transition-colors">
+                        @lizashmiganovskaya
                       </a>
                     </div>
                   </div>
@@ -516,8 +516,8 @@ const Index = () => {
                     </div>
                     <div>
                       <div className="font-heading font-semibold mb-1 text-foreground">ВКонтакте</div>
-                      <a href="https://vk.com/username" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors">
-                        vk.com/username
+                      <a href="https://vk.com/liza_shmiganovskaya" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors">
+                        vk.com/liza_shmiganovskaya
                       </a>
                     </div>
                   </div>
